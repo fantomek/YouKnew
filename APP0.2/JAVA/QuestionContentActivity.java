@@ -31,11 +31,11 @@ public class QuestionContentActivity extends AppCompatActivity {
         button_backthelist =(Button)findViewById(R.id.button_backthelist);
         button_answer =(Button)findViewById(R.id.button_answer);
         qinfo=findViewById(R.id.qinfo);
-        qtitle=findViewById(R.id.title);
+        qtitle=findViewById(R.id.qtitle);
         qusername=findViewById(R.id.qusername);
 
-//        qusername.setText(q_username);
-//        qtitle.setText(q_title);
+        qusername.setText(q_username);
+        qtitle.setText(q_title);
         qinfo.setText(q_info);
 
         button_backthelist.setOnClickListener(new View.OnClickListener() {
