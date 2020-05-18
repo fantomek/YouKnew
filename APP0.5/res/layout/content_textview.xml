@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textView_qinfo"
+    android:layout_width="match_parent"
+    android:layout_height="35dp"
+    android:layout_marginHorizontal="10dp"
+    android:layout_marginVertical="5dp"
+    style="@style/InputBoxStyle"
+    android:gravity="left"
+    android:textColor="#A0000000"
+    android:textSize="18sp"
+    android:maxEms="13"
+    android:singleLine="true"
+    android:ellipsize="end"
+    />
+<!--        tools:layout_editor_absoluteX="30dp"-->
+<!--        tools:layout_editor_absoluteY="51dp"-->
+<!--        tools:ignore="MissingConstraints" />-->
+<!--</androidx.constraintlayout.widget.ConstraintLayout>-->
